@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invalid File</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 60px;
+            color: #333;
+        }
+        .error-box {
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        .error-box h1 {
+            font-size: 2.5em;
+            color: #ff4d4d;
+        }
+        .error-box p {
+            font-size: 1.1em;
+        }
+        .home-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1em;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        .home-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h1>Oops! Invalid File</h1>
+        <p>Sorry, only <strong>.xlsx</strong> Excel files are supported.</p>
+        <p>Please go back and upload a valid medical data file.</p>
+        <a href="/" class="home-button">Try Again</a>
+    </div>
+</body>
+</html>
